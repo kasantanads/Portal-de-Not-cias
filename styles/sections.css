@@ -4,4 +4,19 @@
         object-fit: cover;
         border-radius: 4px;
     }
+
+    .card {
+
+        position: relative;
+        overflow: hidden;
+        border-radius: 4px;
+
+        &::before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            background: linear-gradient(180deg, transparent 0%, #020617 100%);
+            inset: 0;
+        }
+    }
 }
