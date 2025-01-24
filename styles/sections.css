@@ -106,6 +106,12 @@ aside {
     grid-area: aside;
 }
 
+#ads {
+    img {
+        border-radius: 8px;
+    }
+}
+
 #more {
 
     margin-top: 32px;
